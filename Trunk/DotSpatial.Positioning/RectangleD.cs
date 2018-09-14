@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
+using DotSpatial.Positioning;
 #if !PocketPC || DesignTime
 using System.ComponentModel;
 #endif
@@ -96,7 +97,7 @@ namespace GeoFramework
             }
             else
             {
-                throw new FormatException(Properties.Resources.RectangleD_InvalidFormat);
+                throw new FormatException(DotSpatial.Positioning.Properties.Resources.RectangleD_InvalidFormat);
             }
 		}
 
@@ -648,7 +649,7 @@ namespace GeoFramework
         /// <param name="points">An array of PointD objects to enclose.</param>
         /// <returns>A <strong>RectangleD</strong> object enclosing the specified points.</returns>
         /// <remarks>This method is typically used to calculate a rectangle surrounding
-        /// points which have been rotated.  For example, if a rectangle is rotated by 45°, the
+        /// points which have been rotated.  For example, if a rectangle is rotated by 45ï¿½, the
         /// total width it occupies is greater than it's own width.</remarks>
         public static RectangleD FromArray(PointD[] points)
         {

@@ -1,8 +1,7 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-
-using GeoFramework.Projections;
+using DotSpatial.Positioning;
 
 namespace GeoFramework
 {
