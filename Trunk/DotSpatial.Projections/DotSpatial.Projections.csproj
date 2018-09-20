@@ -2,7 +2,7 @@
 
    <PropertyGroup>
       <TargetFrameworks>net45;net47;netstandard2.0</TargetFrameworks>
-      <RootNamespace>DotSpatial.Projection</RootNamespace>
+      <RootNamespace>DotSpatial.Projections</RootNamespace>
       <AssemblyTitle>DotSpatial.Projections</AssemblyTitle>
       <Description>For working with Projections and coordinate systems. A port of the popular proj4 C++ library to C#.</Description>
       <Company>DotSpatial Team</Company>
